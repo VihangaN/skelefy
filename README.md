@@ -1,4 +1,4 @@
-# React Placeholder
+# skelefy
 
 A lightweight React component that adds a shimmer loading animation to your content while data is being fetched.
 
@@ -15,13 +15,13 @@ A lightweight React component that adds a shimmer loading animation to your cont
 Install via npm:
 
 ```bash
-npm install react-placeholder
+npm install skelefy
 ```
 
 Or using yarn:
 
 ```bash
-yarn add react-placeholder
+yarn add skelefy
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ yarn add react-placeholder
 Wrap your components with the Placeholder component and control it with the isLoading prop:
 
 ```jsx
-import Placeholder from 'react-placeholder';
+import Placeholder from 'skelefy';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -102,7 +102,7 @@ Supported timing values:
 
 ```jsx
 import React, { useState, useEffect } from 'react';
-import Placeholder from 'react-placeholder';
+import Placeholder from 'skelefy';
 
 function Example() {
   const [data, setData] = useState(null);
